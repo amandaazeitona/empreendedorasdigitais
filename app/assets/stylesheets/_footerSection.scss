@@ -9,6 +9,7 @@
   color: #0c5e74;
   font-size: 28px;
 }
+
 .footer__linha {
   background-color: #692a66;
   height: 4px;
@@ -56,5 +57,46 @@
 
 .finep {
   margin-left: 2%;
+}
+
+/********************************************** RESPONSIVE ****************************************************/
+
+@media #{$small-down} {
+  .footer__p--container {
+    height: 2em;
+  }
+
+  .footer__p {
+    margin: 0.5em;
+    font-size: 14px;
+  }
+
+  .div-logo2 {
+    width: 15%
+  }
+
+  .div-logo3 {
+    width: 16%
+  }
+
+  .div-logo4 {
+    width: 15%
+  }
+
+  .div-logo5 {
+    width: 12%
+  }
+
+  .div-logo6 {
+    width: 15%
+  }
+
+  .div-logo7 {
+    width: 15%
+  }
+
+  .tamanho-logo-footer {
+    width: 100%;
+  }
 }
 

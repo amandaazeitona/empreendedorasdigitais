@@ -17,14 +17,6 @@
   display: block;
   width: 100%;
 }
-/* MEDIA QUERY RESPONSIVO Ainda sendo ajustado*/
-@media (max-width: 768px) {
-  .services__p {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 2em;
-  }
-}
 
 #como {
   border-bottom: 5px solid #692a66;
@@ -42,7 +34,19 @@
   color: #0c5e74;
 }
 
-@media (max-width: 768px) {
+.infografico {
+  margin-top: 10%;
+}
+
+/********************************************** RESPONSIVE ****************************************************/
+
+@media #{$small-down} {
+  .services__p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
   .parag1-como {
   text-align: justify;
   font-size: 2em;
@@ -55,6 +59,8 @@
   }
 }
 
-.infografico {
-  margin-top: 10%;
+@media #{$medium-down} {
+  .mulheres3 {
+    display: none;
+  }
 }

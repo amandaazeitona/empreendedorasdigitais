@@ -29,13 +29,6 @@
   padding: 0 !important;
 }
 
-@media (max-width: 576px) {
-  .parag1-programa {
-  font-size: 1em;
-
-  }
-}
-
 .card--prog{
   margin-top: 12%;
 }
@@ -52,13 +45,6 @@
   padding: 0 !important;
 }
 
-@media (max-width: 576px) {
-  .parag2-programa {
-  font-size: 1em;
-
-  }
-}
-
 .sectionBunner__contactButton {
   text-align: center;
   margin-top: 8%;
@@ -71,8 +57,18 @@
   font-size: 50px;
 }
 
-@media (max-width: 576px) {
+/********************************************** RESPONSIVE ****************************************************/
+
+@media #{$small-down} {
+  .parag1-programa {
+    font-size: 1em;
+  }
+
+  .parag2-programa {
+    font-size: 1em;
+  }
+
   .sectionBunner__contactButton--color {
-  font-size: 30px;
-}
+    font-size: 30px;
+  }
 }
