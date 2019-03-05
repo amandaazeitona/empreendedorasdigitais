@@ -1,6 +1,5 @@
 .team {
   color: white;
-  //margin-bottom: 2.5em;
   padding-top: 2.5em;
   padding-bottom: 1.5em;
 }
@@ -52,17 +51,6 @@
   margin: 0.5em;
 }
 
-@media (max-width: 576px) {
-  .team__h1 {
-    font-size: 1.8em;
-  }
-
-  .team__h2 {
-    font-size: 2.4em;
-    line-height: 50px;
-  }
-}
-
 .parag2-cadastro {
   text-align: center;
   font-size: 40px;
@@ -84,10 +72,7 @@
 }
 
 @media (max-width: 576px) {
-  .sectionTeam__contactButton {
-    text-align: center;
-    margin-bottom: 5%;
-  }
+  
 
 .sectionTeam__contactButton--color {
     font-size: 20px;
@@ -97,5 +82,23 @@
     font-size: 1.4em;
     line-height: 30px;
     margin: 1em;
+  }
+}
+
+/********************************************** RESPONSIVE ****************************************************/
+
+@media #{$small-down} {
+  .team__h1 {
+    font-size: 1.8em;
+  }
+
+  .team__h2 {
+    font-size: 2.4em;
+    line-height: 50px;
+  }
+
+  .sectionTeam__contactButton {
+    text-align: center;
+    margin-bottom: 5%;
   }
 }
