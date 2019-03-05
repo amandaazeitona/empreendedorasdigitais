@@ -1,43 +1,60 @@
 .footer__p--container {
-  height: 4.5em;
+  height: 3em;
   display: flex;
 }
 
 .footer__p {
-  margin: 15px;
+  margin: 0.5em;
   text-align: left;
   color: #0c5e74;
-  font-size: 1.5em;
+  font-size: 28px;
 }
 .footer__linha {
   background-color: #692a66;
   height: 4px;
 }
 
-.logo-footer {
+.logos-footer {
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
 }
 
-.tamanho-logo6 {
-  width: 1em;
-}
-
-.logo6 {
+.tamanho-logo-footer {
   width: 100%;
+}
+
+.div-logo2 {
+  width: 12%
+}
+
+.div-logo3 {
+  width: 15%
+}
+
+.div-logo4 {
+  width: 12%
+}
+
+.div-logo5 {
+  width: 10%
+}
+
+.div-logo6 {
+  width: 12%
+}
+
+.div-logo7 {
+  width: 12%
 }
 
 .container-logos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 90px;
 }
 
-.logo-footer {
-  flex-grow: 1;
+.finep {
+  margin-left: 2%;
 }
 
-.logo5{
-  padding-bottom: 30px;
-}
