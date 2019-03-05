@@ -1,0 +1,43 @@
+.footer__p--container {
+  height: 4.5em;
+  display: flex;
+}
+
+.footer__p {
+  margin: 15px;
+  text-align: left;
+  color: #0c5e74;
+  font-size: 1.5em;
+}
+.footer__linha {
+  background-color: #692a66;
+  height: 4px;
+}
+
+.logo-footer {
+  justify-content: center;
+  align-items: center;
+}
+
+.tamanho-logo6 {
+  width: 1em;
+}
+
+.logo6 {
+  width: 100%;
+}
+
+.container-logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 90px;
+}
+
+.logo-footer {
+  flex-grow: 1;
+}
+
+.logo5{
+  padding-bottom: 30px;
+}

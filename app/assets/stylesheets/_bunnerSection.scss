@@ -1,0 +1,56 @@
+/* CSS DO BUNNER */
+
+.sectionBunner__bunner {
+  position: relative;
+  background-image: url(home.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sectionBunner__titleContainer {
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 5rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .sectionBunner__titleContainer {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .sectionBunner__titleContainer {
+    font-size: 2rem;
+  }
+}
+
+.icon_hover { display: none };
+.icon_not_hover { display: inline};
+
+.icon:hover .icon_hover { display: inline };
+.icon:hover .icon_not_hover { display: none };
+
+.imagem-redes-home {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+@media (max-width: 400px) {
+  .imagem-redes-home {
+    position: absolute;
+    bottom: 1em;
+    right: 5em;
+  }
+}

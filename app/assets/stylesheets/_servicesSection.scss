@@ -1,0 +1,56 @@
+.services__background {
+  padding: 2.5em 0;
+}
+.services__p {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services__h3 {
+  text-align: center;
+  padding-top: 25px;
+  align-items: center;
+}
+.services__images {
+  display: block;
+  width: 100%;
+}
+/* MEDIA QUERY RESPONSIVO Ainda sendo ajustado*/
+@media (max-width: 768px) {
+  .services__p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+}
+
+#como {
+  border-bottom: 5px solid #692a66;
+  border-top: 5px solid #692a66;
+}
+
+.parag1-como {
+  text-align: justify;
+  font-size: 3em;
+  color: #0c5e74;
+}
+
+.parag2-como {
+  font-size: 6em;
+  color: #0c5e74;
+}
+
+@media (max-width: 768px) {
+  .parag1-como {
+  text-align: justify;
+  font-size: 2em;
+  color: #0c5e74;
+  }
+
+  .parag2-como {
+    font-size: 3em;
+    color: #0c5e74;
+  }
+}
