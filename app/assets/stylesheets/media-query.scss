@@ -12,9 +12,8 @@ $medium-range-max:  991px;
 $large-range-min:   992px; 
 $large-range-max:   1199px;
 $xlarge-range-min:  1200px;
-$xlarge-range-max:  1400px;
-$xxlarge-range-min: 1440px;
-$xxlarge-range-max: 1600px;
+$xlarge-range-max:  1599px;
+$xxlarge-range-min: 1600px;
 
 
 // Defining media queries
@@ -44,10 +43,6 @@ $large-down:   "only screen and (max-width:#{$large-range-max})" !default;
 $xlarge-only:  "only screen and (min-width:#{$xlarge-range-min}) and (max-width:#{$xlarge-range-max})" !default;
 $xlarge-up:    "only screen and (min-width:#{$xlarge-range-min})" !default;
 $xlarge-down:   "only screen and (max-width:#{$xlarge-range-max})" !default;
-
-$xxlarge-only:  "only screen and (min-width:#{$xlarge-range-min}) and (max-width:#{$xlarge-range-max})" !default;
-$xxlarge-up:    "only screen and (min-width:#{$xlarge-range-min})" !default;
-$xxlarge-down:   "only screen and (max-width:#{$xlarge-range-max})" !default;
 
 $xxlarge-up:   "only screen and (min-width:#{$xxlarge-range-min})" !default;
 // small - xs

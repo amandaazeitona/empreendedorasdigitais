@@ -1,5 +1,5 @@
 .aboutUs__background {
-  padding: 2.5em 0;
+  padding: 4% 0;
 }
 
 .aboutUs__card {
@@ -19,7 +19,7 @@
 
 .parag1-programa {
   text-align: left;
-  font-size: 35px;
+  font-size: 2em;
   margin: 1em 1em 1em 1em;
   color: #0c5e74;
   width:100%;
@@ -34,12 +34,12 @@
 }
 
 .card--prog{
-  margin-top: 12%;
+  margin-top: 10%;
 }
 
 .parag2-programa {
   text-align: right;
-  font-size: 35px;
+  font-size: 2em;
   margin: 1em 1em 1em 1em;
   color: #692a66;
   width:100%;
@@ -55,14 +55,15 @@
 
 .sectionBunner__contactButton {
   text-align: center;
-  margin-top: 8%;
+  margin-top: 7%;
+  margin-bottom: 1%;
 }
 
 .sectionBunner__contactButton--color {
   background-color: #0c5e74 !important;
   border-color: #0c5e74 !important;
   color: white;
-  font-size: 50px;
+  font-size: 4.5em;
 }
 
 /********************************************** RESPONSIVE ****************************************************/
@@ -77,6 +78,6 @@
   }
 
   .sectionBunner__contactButton--color {
-    font-size: 30px;
+    font-size: 2.2em;
   }
 }

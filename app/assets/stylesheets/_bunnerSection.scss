@@ -16,9 +16,9 @@
 
 .sectionBunner__titleContainer {
   color: white;
-  padding-top: 30px;
+  padding-top: 8%;
   text-align: center;
-  font-size: 5rem;
+  font-size: 5em;
 }
 
 .icon_hover { display: none };
@@ -29,26 +29,30 @@
 
 .imagem-redes-home {
   position: absolute;
-  bottom: 7em;
-  right: 1em;
+  bottom: 11%;
+  right: 1%;
+}
+
+.sectionBunner__contactButton {
+  font-size: 0.6em;
 }
 
 /********************************************** RESPONSIVE ****************************************************/
 
 @media #{$small-down} {
   .sectionBunner__titleContainer {
-    font-size: 2rem;
+    font-size: 7em;
   }
 
   .imagem-redes-home {
     position: absolute;
-    bottom: 6em;
-    right: 5em;
+    bottom: 11%;
+    right: 22%;
   }
 }
 
 @media #{$medium-down} {
   .sectionBunner__titleContainer {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
 }
