@@ -1,11 +1,11 @@
 .footer__p--container {
   height: 3em;
-  display: flex;
+  display: block;
 }
 
 .footer__p {
   margin: 0.5em;
-  text-align: left;
+  text-align: center;
   color: #0c5e74;
   font-size: 1.6em;
 }
@@ -47,6 +47,10 @@
 
 .div-logo7 {
   width: 12%
+}
+
+.div-fb-brasil {
+  width: 14%
 }
 
 .container-logos {
@@ -94,6 +98,10 @@
   .div-logo7 {
     width: 15%
   }
+
+  .div-fb-brasil {
+  width: 14%
+}
 
   .tamanho-logo-footer {
     width: 100%;
